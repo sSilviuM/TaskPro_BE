@@ -32,7 +32,7 @@ async function register(req, res) {
   });
 
   // Build the confirmation link
-  const confirmationLink = `http://localhost:5000/confirm?token=${confirmationToken}`;
+  const confirmationLink = `https://taskpro-be.onrender.com:5000/confirm?token=${confirmationToken}`;
 
   // Email data
   const emailData = {
